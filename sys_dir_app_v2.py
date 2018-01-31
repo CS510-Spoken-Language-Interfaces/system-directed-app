@@ -5,6 +5,8 @@ and the user gives appropriate answers to it.
 
 API Used :- PyAudio, Google Speech API,pyTTSx3
 
+Functionality implemented :- Speech to text, text to Speech
+
 """
 
 import pyaudio
@@ -28,6 +30,7 @@ CHANNELS = 1
 RATE = 16000
 RECORD_SECONDS = 5
 
+# no need for pyL can remove it.Since Using text-to-speech
 pyL = ["Q101.wav","Q2.wav","Q3.wav","Q4.wav","Q5.wav"]
 
 mes = ["What's the patient's temperature in Fahrenheit?", "Whats the patient's systolic blood pressure?","Whats the patient's diastolic blood pressure?","What's the patient's pulse rate?","Whats the patient's pain-level on a scale of 1 to 10?"]

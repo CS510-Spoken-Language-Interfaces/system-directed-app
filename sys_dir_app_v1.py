@@ -1,4 +1,14 @@
-"""PyAudio Example: Play a WAVE file."""
+"""
+A Patient Information command-line utility using Google Speech API and Text-to-Speech API 
+It is a system-directed dialogue flow where the system asks the user a set of questions 
+and the user gives appropriate answers to it.
+
+API Used :- PyAudio, Google Speech API,pyTTSx3
+
+Functionality implemented :- Speech to text
+
+"""
+
 
 import pyaudio
 import wave
