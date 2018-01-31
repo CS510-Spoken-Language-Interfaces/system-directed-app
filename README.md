@@ -13,7 +13,8 @@ Please follow the instructions in the pre-requisites before deploying the projec
 =/path/to/service_account.json`
 
 ```
-Note: All the above instructions can be found on Google Cloud Speech Quickstart Guide (https://cloud.google.com/speech/docs/quickstart) 
+Note: All the above instructions can be found on Google Cloud Speech Quickstart
+Guide (https://cloud.google.com/speech/docs/quickstart) 
 ```
 7. Install [Python](https://www.python.org/downloads/)
 8. Install Pip. Follow this [guide](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation)
@@ -21,10 +22,22 @@ Note: All the above instructions can be found on Google Cloud Speech Quickstart 
 10. Install [PyTTSx3](https://github.com/nateshmbhat/pyttsx3/blob/master/README.rst)
 
 ```
-Note: As of when this article was written, I got error while running the sample program , I was able to solve the same
-using link (https://github.com/nateshmbhat/pyttsx3/issues/1)
+Note: As of when this article was written, I got error while running the sample program , I was able to solve the 
+same using link (https://github.com/nateshmbhat/pyttsx3/issues/1)
 ```
 
-## 
+# System - Directed Application Overview
+
+A system directed application to collect patient information using voice input /output driven approach. The application asks 
+the user to enter values one at a time in a pre-specified sequence.)  The application should collect values for: 
+
+a. Temperature
+b. Blood pressure (both systolic and diastolic values)
+c. Pulse rate
+d. Pain level (on a scale of 1 to 10)
+
+## Deployment Instructions
+
+Clone the repo using 
 
 
