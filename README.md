@@ -38,6 +38,6 @@ d. Pain level (on a scale of 1 to 10)
 
 ## Deployment Instructions
 
-Clone the repo using 
-
+Clone the repo using command git clone https://github.com/CS510-Spoken-Language-Interfaces/system-directed-app.git 
+Make sure to place the service account file in this folder or else the google speech api wont work
 
