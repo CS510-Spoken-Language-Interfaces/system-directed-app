@@ -31,10 +31,10 @@ same using link (https://github.com/nateshmbhat/pyttsx3/issues/1)
 A system directed application to collect patient information using voice input /output driven approach. The application asks 
 the user to enter values one at a time in a pre-specified sequence.)  The application should collect values for: 
 
-a. Temperature
-b. Blood pressure (both systolic and diastolic values)
-c. Pulse rate
-d. Pain level (on a scale of 1 to 10)
+* Temperature
+* Blood pressure (both systolic and diastolic values)
+* Pulse rate
+* Pain level (on a scale of 1 to 10)
 
 ## Deployment Instructions
 
